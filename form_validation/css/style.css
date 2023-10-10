@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    font-family: system-ui;
+    background: -webkit-radial-gradient(top left, #566161, #767cdc);
+}
+
+.form {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #305ea3; /* Updated text color to orange */
+}
+
+form {
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F4F4F4; /* Updated background color to a light gray */
+    margin: 4% auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Updated label text color to dark gray */
+}
+
+label i {
+    color: #777; /* Updated icon text color to a lighter gray */
+    font-size: 80%;
+}
+
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #F8F8F8; /* Updated input background color to a slightly lighter gray */
+}
+
+.box {
+    padding-bottom: 10px;
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+.error {
+    color: #FF5733; /* Updated error text color to orange */
+    font-size: 90%;
+}
+
+input[type=text] {
+    outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #4659ad; /* Updated button background color to orange */
+    border-color: #35507e; /* Updated button border color to orange */
+    box-shadow: 0 3px 0 #391b60; /* Updated button box shadow color to a darker orange */
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #1b0f4f; /* Updated button background color on hover to a darker orange */
+    border-color: #6f80d4; /* Updated button border color on hover to a darker orange */
+}
+
+.input-1 {
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid #01CC40;
+}
+
+.input-2 {
+    background-image: url(../images/cancel.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid #DB9999; /* Updated border color for input-2 to a lighter red */
+}
+
+.input-3 {
+    border: 1px solid #01CC40 !important;
+}
+
+select {
+    outline: none !important;
+}
+
+.input-4 {
+    border: 1px solid #2D2424; /* Updated border color for input-4 to a darker gray */
+}
